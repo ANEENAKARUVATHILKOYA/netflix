@@ -1,0 +1,27 @@
+.movie_row{
+    display: flex;
+    overflow-x:scroll ;
+}
+
+.movie{
+   
+    height:150px;
+    margin-right: 10px;
+    transition: .5s ease-in-out;
+}
+
+.movie:hover{
+    transform: scale(1.05);
+}
+
+.row{
+    margin-left: 10px;
+}
+
+.posterMovie{
+    height:200px;
+}
+
+ .movie_row::-webkit-scrollbar{
+    display: none;
+}
