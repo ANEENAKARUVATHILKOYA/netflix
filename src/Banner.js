@@ -38,16 +38,15 @@ function truncate(str,n){
     
     <div 
        className='banner'
-       
-        style={{
-         backgroundImage:`url(${base_url}${movie.poster_path})`}}   >
-       
-       <div  className='bannerContent'>
+       style={{
+         backgroundImage:`url(${base_url}${movie.backdrop_path})`} } >
 
+
+       <div  className='bannerContent'>
          <h1 className='title'>{movie.title}</h1>
          <h3 className='overview'>{truncate(movie?.overview,200)}</h3>
-
        </div>
+
     </div>
   )
 }
